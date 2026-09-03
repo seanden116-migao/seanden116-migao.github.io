@@ -30,7 +30,7 @@ resumeSection.innerHTML=`
     <div class="resume-meta-block"><span class="resume-meta-label">SELF-INITIATED</span><p>發起並主持 Clear Thinking 讀書會、創業讀書會，帶動同儕共讀與討論。</p></div>
   </div>
   <div class="resume-skills reveal"><span>影音企劃與剪輯</span><span>Podcast 製作</span><span>Instagram／Threads</span><span>簡報與主持</span><span>PEST／競品分析</span></div>
-  <div class="resume-footer reveal"><p>想看完整的內容創作、社群經營與行銷實作？</p><a class="resume-download" href="assets/周銘嵩_履歷_管顧版.pdf" target="_blank" rel="noreferrer" aria-label="在新分頁開啟完整履歷">下載完整履歷 <span>↗</span></a></div>`;
+  <div class="resume-footer reveal"><p><a class="resume-more-link" href="assets/周銘嵩_履歷.pdf" target="_blank" rel="noreferrer">想看更多履歷</a></p><a class="resume-download" href="assets/周銘嵩_履歷.pdf" target="_blank" rel="noreferrer" aria-label="在新分頁開啟完整履歷">下載完整履歷 <span>↗</span></a></div>`;
 const timeline=resumeSection.querySelector('.resume-timeline');
 if(timeline){[...timeline.children].sort((a,b)=>{const getScore=el=>{const text=el.querySelector('.resume-time')?.textContent||'';const ongoing=text.includes('迄今');const dates=[...text.matchAll(/(\d{4})\.(\d{2})/g)].map(match=>Number(`${match[1]}${match[2]}`));return {ongoing,latest:dates.at(-1)||0,start:dates[0]||0}};const first=getScore(a),second=getScore(b);if(first.ongoing!==second.ongoing)return Number(second.ongoing)-Number(first.ongoing);if(first.latest!==second.latest)return second.latest-first.latest;return second.start-first.start}).forEach(item=>timeline.appendChild(item))}
 const interestsSection=document.querySelector('#interests');
