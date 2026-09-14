@@ -26,7 +26,7 @@ resumeSection.innerHTML=`
     <article class="resume-item reveal"><div class="resume-time">2025.09‒2025.12</div><div class="resume-dot"></div><div class="resume-card"><span class="resume-type">SELF-LEARNING</span><h3>創業讀書會<br><small>召集人</small></h3><p>自行發起並主持共讀與討論，將閱讀內容帶回同儕交流，累積組織討論與引導對話的經驗。</p></div></article>
   </div>
   <div class="resume-meta reveal">
-    <div class="resume-meta-block"><span class="resume-meta-label">AWARDS</span><p>第一屆津橋黑克松行銷商業提案競賽・亞軍<br>系上短影音・第二名｜Podcast・第三名</p></div>
+    <div class="resume-meta-block"><span class="resume-meta-label">AWARDS</span><p>第一屆津橋黑克松行銷商業提案競賽・亞軍<br>系上短影音・第二名｜Podcast・第三名</p><p class="resume-award-heading">讀書會獲獎</p><div class="resume-award-links"><a href="assets/114-1 獎狀_甲等S21.pdf" target="_blank" rel="noreferrer">創業者讀書會・甲等 <span>114-1 ↗</span></a><a href="assets/114-2 獎狀_甲等S18.pdf" target="_blank" rel="noreferrer">Clear Thinking・甲等 <span>114-2 ↗</span></a></div></div>
     <div class="resume-meta-block"><span class="resume-meta-label">SELF-INITIATED</span><p>發起並主持 Clear Thinking 讀書會、創業讀書會，帶動同儕共讀與討論。</p></div>
   </div>
   <div class="resume-skills reveal"><span>影音企劃與剪輯</span><span>Podcast 製作</span><span>Instagram／Threads</span><span>簡報與主持</span><span>PEST／競品分析</span></div>
